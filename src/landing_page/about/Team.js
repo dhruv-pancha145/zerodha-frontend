@@ -14,7 +14,7 @@ function Team() {
               style={{ borderRadius: "100%", width: "50%" }}
               alt="Team member"
             />
-            <h2 className="fs-5  text-mutted mt-5 text-muted">Nithin Kamath</h2>
+            <h2 className="fs-5  text-mutted mt-5 text-muted">Dhruv Panchal</h2>
             <h3 className="fs-6  text-mutted text-muted">Founder, CEO</h3>
           </div>
           <div className="col-6  p-5 mt-3 text-mutted">
