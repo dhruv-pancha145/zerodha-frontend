@@ -19,7 +19,7 @@ function Team() {
           </div>
           <div className="col-6  p-5 mt-3 text-mutted">
             <p className="" style={{ lineHeight: "1.8", fontSize: "1em" }}>
-              Nithin bootstrapped and founded Zerodha in 2010 to overcome the
+              Dhruv bootstrapped and founded Zerodha in 2010 to overcome the
               hurdles he faced during his decade long stint as a trader. Today,
               Zerodha has changed the landscape of the Indian broking industry.
             </p>
