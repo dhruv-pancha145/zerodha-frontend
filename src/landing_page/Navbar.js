@@ -11,7 +11,7 @@ function Navbar() {
     const verifyUser = async () => {
       try {
         const { data } = await axios.post(
-          "http://localhost:3002/",
+          "https://zerodha-backend-4i65.onrender.com/",
           {},
           { withCredentials: true }
         );
