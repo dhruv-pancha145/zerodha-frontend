@@ -14,7 +14,7 @@ const Home = () => {
         navigate("/login");
       }
       const { data } = await axios.post(
-        "http://localhost:3000",
+        "zerodha-frontend-lovat.vercel.app",
         {},
         { withCredentials: true }
       );
