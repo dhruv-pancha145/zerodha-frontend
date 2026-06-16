@@ -11,6 +11,7 @@ function Footer() {
               src="media/images/logo.svg"
               style={{ width: "50%" }}
               className="mb-3"
+              alt="Zerodha Logo"
             />
             <p>
               &copy; 2010 - 2024, Not Zerodha Broking Ltd. All rights reserved.

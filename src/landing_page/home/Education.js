@@ -8,7 +8,7 @@ function Education() {
           <img
             src="media\images\education.svg"
             style={{ width: "75%" }}
-            alt="Education Image"
+            alt="Stock market education"
             className="mb-5"
           />
         </div>

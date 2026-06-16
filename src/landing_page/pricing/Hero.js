@@ -11,7 +11,7 @@ function Hero() {
       </div>
       <div className="row mt-5 border-bottom ">
         <div className="col-4 mt-5 p-4 text-center">
-          <img src="media/images/pricing0.svg" alt="Zero Coin Image" />
+          <img src="media/images/pricing0.svg" alt="Pricing" />
           <h1 className="fs-3">Free equity delivery</h1>
           <p className="text-muted">
             All equilty delivery investment (NSE,BSE),
@@ -19,7 +19,7 @@ function Hero() {
           </p>
         </div>
         <div className="col-4 mt-5 p-4 text-center">
-          <img src="media/images/intradayTrades.svg" alt="Intraday Trades" />
+          <img src="media/images/intradayTrades.svg" alt="Pricing" />
           <h1 className="fs-3">Intraday and F&O trades</h1>
           <p className="text-muted">
             Flat Rs. 20 or 0.0035 (Whichever is lower)
@@ -32,7 +32,7 @@ function Hero() {
           </p>
         </div>
         <div className="col-4 mt-5 p-4 text-center">
-          <img src="media/images/pricing0.svg" />
+          <img src="media/images/pricing0.svg"  alt="Pricing" />
           <h1 className="fs-3">Free direct MF</h1>
           <p className="text-muted">
             {" "}

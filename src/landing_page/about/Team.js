@@ -12,6 +12,7 @@ function Team() {
             <img
               src="media/images/nithinKamath.jpg"
               style={{ borderRadius: "100%", width: "50%" }}
+              alt="Team member"
             />
             <h2 className="fs-5  text-mutted mt-5 text-muted">Nithin Kamath</h2>
             <h3 className="fs-6  text-mutted text-muted">Founder, CEO</h3>

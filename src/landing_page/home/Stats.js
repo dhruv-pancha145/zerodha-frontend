@@ -46,7 +46,7 @@ function Stats() {
         <div className="col-6 p-5">
           <img
             src="media\images\ecosystem.png"
-            alt="Ecosystem Image"
+           alt="Ecosystem"
             style={{ width: "99%" }}
           />
           <div className="text-center">

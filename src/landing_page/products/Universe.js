@@ -15,7 +15,7 @@ function Universe() {
         {/* Smallcase */}
         <div className="col-4 p-3 mt-5">
           <div style={imgContainer}>
-            <img src="media/images/smallcaseLogo.png" style={imgStyle} />
+            <img src="media/images/smallcaseLogo.png" style={imgStyle} alt="Partner 1"  />
           </div>
           <p className="text-muted mt-2">Thematic investment platform</p>
         </div>
@@ -23,7 +23,7 @@ function Universe() {
         {/* Streak */}
         <div className="col-4 p-3 mt-5">
           <div style={imgContainer}>
-            <img src="media/images/streakLogo.png" style={imgStyle} />
+            <img src="media/images/streakLogo.png" style={imgStyle} alt="Partner 2" />
           </div>
           <p className="text-muted mt-2">Algo & strategy platform</p>
         </div>
@@ -31,7 +31,7 @@ function Universe() {
         {/* Sensibull */}
         <div className="col-4 p-3 mt-5">
           <div style={imgContainer}>
-            <img src="media/images/sensibullLogo.svg" style={imgStyle} />
+            <img src="media/images/sensibullLogo.svg" style={imgStyle} alt="Partner 3" />
           </div>
           <p className="text-muted mt-2">Options trading platform</p>
         </div>
@@ -39,7 +39,7 @@ function Universe() {
         {/* Zerodha Fund House */}
         <div className="col-4 p-3 mt-5">
           <div style={imgContainer}>
-            <img src="media/images/zerodhaFundhouse.png" style={imgStyle} />
+            <img src="media/images/zerodhaFundhouse.png" style={imgStyle} alt="Partner 4" />
           </div>
           <p className="text-muted mt-2">Asset management</p>
         </div>
@@ -47,7 +47,7 @@ function Universe() {
         {/* GoldenPi */}
         <div className="col-4 p-3 mt-5">
           <div style={imgContainer}>
-            <img src="media/images/goldenpiLogo.png" style={imgStyle} />
+            <img src="media/images/goldenpiLogo.png" style={imgStyle} alt="Partner 5" />
           </div>
           <p className="text-muted mt-2">Bonds trading platform</p>
         </div>
@@ -55,7 +55,7 @@ function Universe() {
         {/* Ditto */}
         <div className="col-4 p-3 mt-5">
           <div style={imgContainer}>
-            <img src="media/images/dittoLogo.png" style={imgStyle} />
+            <img src="media/images/dittoLogo.png" style={imgStyle} alt="Partner 6" />
           </div>
           <p className="text-muted mt-2">Insurance</p>
         </div>

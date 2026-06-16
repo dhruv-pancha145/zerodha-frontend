@@ -13,7 +13,7 @@ import Navbar from "./landing_page/Navbar.js";
 import Footer from "./landing_page/Footer.js";
 import NotFound from "./landing_page/NotFound.js";
 import { Login, Signup } from "./pages";
-import Home from "./pages/Home";
+// import Home from "./pages/Home";
 
 
 
