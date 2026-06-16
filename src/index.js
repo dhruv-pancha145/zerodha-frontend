@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import 'react-toastify/dist/ReactToastify.css';
-import HomePage from "./landing_page/home/HomePage";
+import HomePage from "./landing_page/home/Homepage.js";
 import AboutPage from "./landing_page/about/AboutPage.js";
 import ProductPage from "./landing_page/products/ProductPage.js";
 import PricingPage from "./landing_page/pricing/PricingPage.js";
