@@ -42,7 +42,7 @@ const Login = () => {
       if (success) {
         handleSuccess(message);
         setTimeout(() => {
-  window.location.href = "http://localhost:3001";
+  window.location.href = "https://zerodha-dashboard-two-orpin.vercel.app";
 }, 1000);
       } else {
         handleError(message);
