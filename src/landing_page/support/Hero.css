@@ -1,0 +1,145 @@
+/* ===== WHOLE SECTION ===== */
+
+.support-hero {
+  background: #387ed1;
+  min-height: 520px;
+  padding: 50px 90px;
+  color: white;
+  font-family: sans-serif;
+}
+
+/* ===== TOP ===== */
+
+.support-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.support-top h4 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.support-top a {
+  color: white;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+/* ===== MAIN CONTENT ===== */
+
+.support-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+/* ===== LEFT SIDE ===== */
+
+.support-left {
+  width: 60%;
+}
+
+.support-left h1 {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 35px;
+}
+
+/* ===== INPUT ===== */
+
+.support-left input {
+  width: 100%;
+  max-width: 620px;
+  padding: 22px;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  outline: none;
+  margin-bottom: 30px;
+}
+
+/* ===== QUICK LINKS ===== */
+
+.quick-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.quick-links a {
+  color: white;
+  font-size: 17px;
+  text-decoration: underline;
+}
+
+/* ===== RIGHT SIDE ===== */
+
+.support-right {
+  width: 40%;
+}
+
+.support-right h2 {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.support-right ol {
+  padding-left: 20px;
+}
+
+.support-right li {
+  margin-bottom: 25px;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.support-right a {
+  color: white;
+  text-decoration: underline;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 992px) {
+
+  .support-content {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .support-left,
+  .support-right {
+    width: 100%;
+  }
+
+  .support-left h1 {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .support-hero {
+    padding: 40px 25px;
+  }
+
+  .support-top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .support-left h1 {
+    font-size: 28px;
+  }
+
+  .support-left input {
+    padding: 18px;
+    font-size: 16px;
+  }
+}
