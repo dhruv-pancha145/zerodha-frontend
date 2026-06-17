@@ -24,11 +24,15 @@ function Navbar() {
   }, []);
   //window.location.pathname 
 
-  const handleLogout = () => {
-    document.cookie = "token=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-    setIsLoggedIn(false);
-    navigate("/login");
-  };
+const handleLogout = async () => {
+  try {
+    await axios.post("https://zerodha-backend-4i65.onrender.com/logout", {}, { withCredentials: true });
+  } catch (err) {
+    console.error(err);
+  }
+  setIsLoggedIn(false);
+  navigate("/login");
+};
 
   return (
     <nav
