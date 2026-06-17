@@ -1,38 +1,8 @@
-import React, { useEffect, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
-import axios from "axios";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
-  const navigate = useNavigate();
-
-  useEffect(() => {
-    const verifyUser = async () => {
-      try {
-        const { data } = await axios.post(
-          "https://zerodha-backend-4i65.onrender.com/",
-          {},
-          { withCredentials: true }
-        );
-        setIsLoggedIn(data.status);
-      } catch (err) {
-        setIsLoggedIn(false);
-      }
-    };
-    verifyUser();
-  }, []);
-  //window.location.pathname 
-
-const handleLogout = async () => {
-  try {
-    await axios.post("https://zerodha-backend-4i65.onrender.com/logout", {}, { withCredentials: true });
-  } catch (err) {
-    console.error(err);
-  }
-  setIsLoggedIn(false);
-  navigate("/login");
-};
 
   return (
     <nav
@@ -62,17 +32,7 @@ const handleLogout = async () => {
           <form className="d-flex" role="search">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                {isLoggedIn ? (
-                  <button
-                    className="nav-link btn btn-link"
-                    onClick={handleLogout}
-                    style={{ color: "#e05c2a", fontWeight: "500" }}
-                  >
-                    Sign out
-                  </button>
-                ) : (
-                  <Link className="nav-link" to="/signup">Signup</Link>
-                )}
+                <Link className="nav-link" to="/signup">Signup</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="about">About</Link>
@@ -89,7 +49,6 @@ const handleLogout = async () => {
             </ul>
           </form>
 
-          {/* ✅ Hamburger dropdown */}
           <div style={{ marginLeft: "40px", position: "relative" }}>
             <i
               className="fa fa-bars"
